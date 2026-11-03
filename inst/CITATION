@@ -1,0 +1,22 @@
+citHeader("To cite deepICMGP and its underlying deep GP methodology, use:")
+
+bibentry("Article",
+  title = "Deep Intrinsic Coregionalization Multi-Output Gaussian Process Surrogate with Active Learning",
+  author = c(person("Chun-Yi", "Chang"), person("Chih-Li", "Sung")),
+  journal = "International Journal for Uncertainty Quantification",
+  year = "2026", volume = "16", number = "4", pages = "29--52",
+  doi = "10.1615/Int.J.UncertaintyQuantification.2026062570")
+
+
+bibentry("Article",
+  title = "Active Learning for Deep Gaussian Process Surrogates",
+  author = c(person("Annie", "Sauer"), person("Robert B.", "Gramacy"),
+             person("David", "Higdon")),
+  journal = "Technometrics", year = "2023", volume = "65", number = "1",
+  pages = "4--18", doi = "10.1080/00401706.2021.2008505")
+
+citFooter(paste(
+  "deepICMGP adapts code from the deepgp R package:",
+  "https://CRAN.R-project.org/package=deepgp.",
+  'Use citation("deepgp") to obtain the software citation for your installed version.'
+))

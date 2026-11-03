@@ -1,0 +1,33 @@
+Package: deepICMGP
+Title: Deep Intrinsic Coregionalization Gaussian Processes for Multiple
+        Outputs
+Version: 0.1.1
+Authors@R: 
+    c(person(given="Chun-Yi", family="Chang", role=c("aut", "cre"), email="chang103@msu.edu"),
+      person(given="Chih-Li", family="Sung", role="aut", email="sungchih@msu.edu"),
+      person(given = c("Annie", "S."), family = "Booth", role = "ctb",
+       comment = "Author of deepgp code adapted in this package")
+	)
+Author: Chun-Yi Chang [aut, cre],
+  Chih-Li Sung [aut],
+  Annie S. Booth [ctb] (Author of deepgp code adapted in this package)
+Maintainer: Chun-Yi Chang <chang103@msu.edu>
+Description: Fits two-layer deep intrinsic coregionalization Gaussian process
+    surrogate models for multiple outputs observed at shared input locations.
+    Uses Markov chain Monte Carlo sampling for kernel parameters and latent
+    coordinates, with plug-in coregionalization estimates. Provides burn-in
+    removal and thinning, posterior predictive means and within-location output
+    covariances, and sequential experimental design using an active learning 
+    criterion. The method is described by Chang and Sung (2026) 
+    <doi:10.1615/Int.J.UncertaintyQuantification.2026062570>.
+    Adapts code from the 'deepgp' package, with underlying deep Gaussian process
+    methodology described by Sauer, Gramacy, and Higdon (2023)
+    <doi:10.1080/00401706.2021.2008505>.
+License: LGPL
+Encoding: UTF-8
+Imports: lhs, parallel, stats
+Config/roxygen2/version: 8.0.0
+NeedsCompilation: yes
+Packaged: 2026-10-21 18:59:35 UTC; chang103
+Repository: CRAN
+Date/Publication: 2026-11-03 15:30:02 UTC
